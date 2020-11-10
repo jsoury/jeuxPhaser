@@ -20,14 +20,16 @@ app.use((req, res, next) => {
   res.setHeader("Access-Control-Allow-Methods", "GET, POST, PUT, DELETE, PATCH, OPTIONS");
   next();
 });
-app.get("/favicon.ico", function (req, res, next) {
-  res.sendFile(path.join("client", "public", "favicon.ico"));
-  next();
-});
 
 app.use(express.static(path.resolve("../client/asset")));
 app.use(express.static(path.resolve("../client/js")));
 app.use(express.static(path.resolve("../client/css")));
+app.use(express.static(path.resolve("../client/public")));
+
+app.get("/favicon.ico", function (req, res, next) {
+  res.sendFile(path.join("client", "public", "favicon.ico"));
+  next();
+});
 
 app.use(bodyParser.json());
 

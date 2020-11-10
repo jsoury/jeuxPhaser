@@ -12,24 +12,29 @@ router.get("/", function (req, res) {
   pageHtml = header + menu + page + footer;
   res.send(pageHtml);
 });
+router.get("/index", function (req, res) {
+  page = fs.readFileSync("../client/html/index.html");
+  pageHtml = header + menu + page + footer;
+  res.send(pageHtml);
+});
 
 router.get("/roberto", function (req, res) {
-  page = fs.readFileSync("../client/html/" + req.route.path + ".html");
+  page = fs.readFileSync("../client/html" + req.route.path + ".html");
   pageHtml = header + menu + page + footer;
   res.send(pageHtml);
 });
 router.get("/starkong", function (req, res) {
-  page = fs.readFileSync("../client/html/" + req.route.path + ".html");
+  page = fs.readFileSync("../client/html" + req.route.path + ".html");
   pageHtml = header + menu + page + footer;
   res.send(pageHtml);
 });
 router.get("/kuru", function (req, res) {
-  page = fs.readFileSync("../client/html/" + req.route.path + ".html");
+  page = fs.readFileSync("../client/html" + req.route.path + ".html");
   pageHtml = header + menu + page + footer;
   res.send(pageHtml);
 });
 router.get("/puissance4", function (req, res) {
-  page = fs.readFileSync("../client/html/" + req.route.path + ".html");
+  page = fs.readFileSync("../client/html" + req.route.path + ".html");
   pageHtml = header + menu + page + footer;
   res.send(pageHtml);
 });
