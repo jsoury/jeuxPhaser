@@ -3,7 +3,7 @@ const afficherCard = (jeuJSON) => {
   var txt = "";
   for (let jeu in jeux) {
     txt += `<div class="col mb-4">    
-    <div class="card" style="width: 18rem;">
+    <div class="card" style="width: 18rem; min-height:320px;">
     <a href="${jeux[jeu].link}">
     <img src="${jeux[jeu].image}" class="card-img-top img-fluid" alt="${jeux[jeu].nom}"/>
     </a>        

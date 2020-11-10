@@ -1,0 +1,101 @@
+
+    <title>Puissance 4</title>
+    <meta name="description" content="" />
+    <!-- bootswatch CSS -->    
+  </head>
+  <body>
+    
+    <div class="container">
+    
+      <header>
+        <div class="jumbotron">
+          <h1 class="display-4 text-center">Règle du Puissance 4</h1>
+          <div class="text-left">
+            <h4>Commencer une partie de puissance 4 :</h4>
+            <p>
+              Pour commencer une partie de puissance 4, on désigne le premier
+              joueur. Celui­ ci met un de ses jetons de couleur dans l’une des
+              colonnes de son choix. Le jeton tombe alors en bas de la colonne.
+              Le deuxième joueur insère à son tour son jeton, de l’autre couleur
+              dans la colonne de son choix. Et ainsi de suite jusqu’à obtenir
+              une rangée de 4 jetons de même couleur.
+            </p>
+            <h4>Comment gagner une partie de puissance 4 :</h4>
+            <p>
+              Pour gagner une partie de puissance 4, il suffit d’être le premier
+              à aligner 4 jetons de sa couleur horizontalement, verticalement et
+              diagonalement. Si lors d’une partie, tous les jetons sont joués
+              sans qu’il y est d’alignement de jetons, la partie est déclaré
+              nulle.
+            </p>
+          </div>
+        </div>
+      </header>
+      <main>
+        <form class="m-5">
+          <fieldset>
+            <legend>Paramètres</legend>
+            <div class="form-inline">
+              <label for="joueur1" class="m-2">Joueur 1</label>
+              <input type="text" class="form-control" id="joueur1" />
+              <label for="joueur1" class="m-2">Joueur 2</label>
+              <input type="text" class="form-control" id="joueur2" />
+            </div>
+            <div class="form-check mt-2">
+              <label class="form-check-label">
+                <input
+                  id="IA"
+                  class="form-check-input"
+                  type="checkbox"
+                  onChange="startIA()"
+                />
+                Joueur contre l'ordinateur
+              </label>
+            </div>
+          </fieldset>
+          <bouton
+            type="submit"
+            id="launchGame"
+            class="btn btn-success m-2 align-self-center"
+            >Joueur</bouton
+          >
+        </form>
+        <h2
+          class="bg-warning text-white p-3 mt-1 rounded-sm w-50 text-center mx-auto d-none"
+          id="tour"
+        ></h2>
+
+        <div class="alert alert-dismissible mt-2 d-none">
+          <button type="button" class="close" data-dismiss="alert">
+            &times;
+          </button>
+          <h4 class="alert-heading">Felicitation</h4>
+          <p class="alertContent mb-0"></p>
+        </div>
+
+        <div class="row">
+          <div
+            class="col-2 text-center align-self-center"
+            style="font-size: 22px"
+            id="scoreJ1"
+          ></div>
+          <div class="plateau col-auto"></div>
+          <div
+            class="col-2 text-center align-self-center"
+            style="font-size: 22px"
+            id="scoreJ2"
+          ></div>
+        </div>
+      </main>
+
+      <footer>
+        <p class="text-center text-muted mt-5">© Copyright 2020 JS SOLUTION</p>
+      </footer>
+      <script src="/puissance4/toolbox.js"></script>
+      <script src="/puissance4/ia.js"></script>
+      <script src="/puissance4/puissance4.js"></script>
+      <script src="/puissance4/main.js"></script>
+      <script src="/puissance4/animation.js"></script>
+    </div>
+  </body>
+</html>
