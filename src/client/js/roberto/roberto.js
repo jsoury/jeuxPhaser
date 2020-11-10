@@ -20,7 +20,7 @@ var Preloader = new Phaser.Class({
     jeu.scene = this;
 
     jeu.scene.load.atlas("robertoAtlas", "/roberto/images/spriteSheetRoberto.png", "/roberto/json/robertoAtlas.json");
-    jeu.scene.load.atlas("robotAtlas", "/roberto/images/spriteSheetRobot.png", "/roberto/json/RobotAtlas.json");
+    jeu.scene.load.atlas("robotAtlas", "/roberto/images/spriteSheetRobot.png", "/roberto/json/robotAtlas.json");
     jeu.scene.load.image("backgroundDesert", "/roberto/images/colored_desert.png");
 
     jeu.scene.load.image("mapTiles", "/roberto/images/platformPack_tilesheet.png");

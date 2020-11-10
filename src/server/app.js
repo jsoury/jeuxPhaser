@@ -28,7 +28,6 @@ app.get("/favicon.ico", function (req, res, next) {
 app.use(express.static(path.resolve("../client/asset")));
 app.use(express.static(path.resolve("../client/js")));
 app.use(express.static(path.resolve("../client/css")));
-app.use(express.static(path.resolve("../client/json")));
 
 app.use(bodyParser.json());
 
