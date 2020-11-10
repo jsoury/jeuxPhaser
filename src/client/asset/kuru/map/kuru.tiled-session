@@ -1,0 +1,238 @@
+{
+    "Map/SizeTest": {
+        "height": 4300,
+        "width": 2
+    },
+    "activeFile": "kurumap4.tmx",
+    "expandedProjectPaths": [
+    ],
+    "exportAsImage.useCurrentScale": false,
+    "file.lastUsedOpenFilter": "Tous les Fichiers (*)",
+    "fileStates": {
+        "": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "D:/CoursOpenClassRoom/CoursJS/phaser/jeuxDePlatforme/server/asset/kuru/images/tilesPerso.tsx": {
+            "scaleInDock": 1
+        },
+        "D:/CoursOpenClassRoom/CoursJS/phaser/jeuxDePlatforme/server/asset/kuru/json/json/json/level1.tmx": {
+            "scale": 0.5,
+            "selectedLayer": 6,
+            "viewCenter": {
+                "x": 927,
+                "y": 44
+            }
+        },
+        "D:/CoursOpenClassRoom/CoursJS/phaser/jeuxDePlatforme/server/asset/kuru/json/json/json/level1.tmx#terrain": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "D:/CoursOpenClassRoom/CoursJS/phaser/jeuxDePlatforme/server/asset/kuru/json/json/json/level1.tmx#tilesPerso": {
+            "scaleInDock": 1
+        },
+        "D:/CoursOpenClassRoom/CoursJS/phaser/jeuxDePlatforme/server/asset/kuru/json/json/json/level2.tmx": {
+            "scale": 0.3782762096774193,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 1182.998001332445,
+                "y": 678.0759493670887
+            }
+        },
+        "D:/CoursOpenClassRoom/CoursJS/phaser/jeuxDePlatforme/server/asset/kuru/json/json/json/level2.tmx#terrain": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "D:/CoursOpenClassRoom/CoursJS/phaser/jeuxDePlatforme/server/asset/kuru/json/json/json/level2.tmx#tilesPerso": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "D:/CoursOpenClassRoom/CoursJS/phaser/jeuxDePlatforme/server/asset/kuru/json/json/json/level3.tmx": {
+            "scale": 0.5,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 979,
+                "y": 625
+            }
+        },
+        "D:/CoursOpenClassRoom/CoursJS/phaser/jeuxDePlatforme/server/asset/kuru/json/json/json/level3.tmx#terrain": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "D:/CoursOpenClassRoom/CoursJS/phaser/jeuxDePlatforme/server/asset/kuru/json/json/json/level3.tmx#tilesPerso": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "D:/CoursOpenClassRoom/CoursJS/phaser/jeuxDePlatforme/server/asset/kuru/json/json/json/level4.tmx": {
+            "scale": 0.5,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 971,
+                "y": 744
+            }
+        },
+        "D:/CoursOpenClassRoom/CoursJS/phaser/jeuxDePlatforme/server/asset/kuru/json/json/json/level4.tmx#terrain": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "D:/CoursOpenClassRoom/CoursJS/phaser/jeuxDePlatforme/server/asset/kuru/json/json/json/level4.tmx#tilesPerso": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "D:/CoursOpenClassRoom/CoursJS/phaser/jeuxDePlatforme/server/asset/roberto/json/mapRoberto.tmx": {
+            "scale": 0.75,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 926,
+                "y": 622.6666666666665
+            }
+        },
+        "D:/CoursOpenClassRoom/CoursJS/phaser/jeuxDePlatforme/server/asset/roberto/json/mapRoberto.tmx#platformPack_tilesheet": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "kurumap1.tmx": {
+            "scale": 0.75,
+            "selectedLayer": 5,
+            "viewCenter": {
+                "x": 512.6666666666665,
+                "y": 461.33333333333337
+            }
+        },
+        "kurumap1.tmx#Tiles_sheet_bumper_64": {
+            "scaleInDock": 1
+        },
+        "kurumap1.tmx#allSprites_retina": {
+            "dynamicWrapping": true,
+            "scaleInEditor": 1
+        },
+        "kurumap1.tmx#holiday": {
+            "dynamicWrapping": true
+        },
+        "kurumap1.tmx#images": {
+            "dynamicWrapping": true,
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "kurumap1.tmx#objets": {
+            "dynamicWrapping": true,
+            "scaleInDock": 1
+        },
+        "kurumap1.tmx#sandRoad": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1
+        },
+        "kurumap1.tmx#tanki": {
+            "dynamicWrapping": false
+        },
+        "kurumap1.tmx#terrain": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1
+        },
+        "kurumap1.tmx#tile-sheet-objet": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1
+        },
+        "kurumap1.tmx#tilesPerso": {
+            "scaleInDock": 1
+        },
+        "kurumap2.tmx": {
+            "scale": 0.75,
+            "selectedLayer": 2,
+            "viewCenter": {
+                "x": 1216.6666666666665,
+                "y": 672
+            }
+        },
+        "kurumap2.tmx#Tiles_sheet_bumper_64": {
+            "scaleInDock": 1
+        },
+        "kurumap2.tmx#sandRoad": {
+            "dynamicWrapping": true,
+            "scaleInDock": 1
+        },
+        "kurumap2.tmx#terrain": {
+            "scaleInDock": 1
+        },
+        "kurumap2.tmx#tile-sheet-objet": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1
+        },
+        "kurumap2.tmx#tilesPerso": {
+            "scaleInDock": 1
+        },
+        "kurumap3.tmx": {
+            "scale": 0.4687752016129032,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 929.0167195312079,
+                "y": 322.11601526799643
+            }
+        },
+        "kurumap3.tmx#terrain": {
+            "scaleInDock": 1
+        },
+        "kurumap3.tmx#tile-sheet-objet": {
+            "scaleInDock": 1
+        },
+        "kurumap3.tmx#tilesPerso": {
+            "scaleInDock": 1
+        },
+        "kurumap4.tmx": {
+            "scale": 0.5,
+            "selectedLayer": 2,
+            "viewCenter": {
+                "x": 943,
+                "y": 902
+            }
+        },
+        "kurumap4.tmx#Tiles_sheet_bumper_64": {
+            "scaleInDock": 1
+        },
+        "kurumap4.tmx#terrain": {
+            "scaleInDock": 1
+        },
+        "kurumap4.tmx#tile-sheet-objet": {
+            "scaleInDock": 1
+        },
+        "kurumap4.tmx#tilesPerso": {
+            "scaleInDock": 1
+        }
+    },
+    "frame.defaultDuration": 200,
+    "map.height": 10,
+    "map.lastUsedExportFilter": "Fichiers de carte JSON (*.json)",
+    "map.lastUsedFormat": "tmx",
+    "map.layerDataFormat": null,
+    "map.tileHeight": 64,
+    "map.tileWidth": 64,
+    "map.width": 30,
+    "openFiles": [
+        "kurumap1.tmx",
+        "kurumap2.tmx",
+        "kurumap3.tmx",
+        "kurumap4.tmx"
+    ],
+    "project": "kuru.tiled-project",
+    "property.type": "int",
+    "recentFiles": [
+        "kurumap1.tmx",
+        "kurumap2.tmx",
+        "kurumap3.tmx",
+        "kurumap4.tmx",
+        "D:/CoursOpenClassRoom/CoursJS/phaser/jeuxDePlatforme/server/asset/kuru/json/json/json/level1.tmx",
+        "D:/CoursOpenClassRoom/CoursJS/phaser/jeuxDePlatforme/server/asset/kuru/json/json/json/level2.tmx",
+        "D:/CoursOpenClassRoom/CoursJS/phaser/jeuxDePlatforme/server/asset/kuru/json/json/json/level3.tmx",
+        "D:/CoursOpenClassRoom/CoursJS/phaser/jeuxDePlatforme/server/asset/kuru/json/json/json/level4.tmx",
+        "D:/CoursOpenClassRoom/CoursJS/phaser/jeuxDePlatforme/server/asset/roberto/json/mapRoberto.tmx"
+    ],
+    "tileset.embedInMap": true,
+    "tileset.lastUsedFilter": "Fichiers de jeu de tuiles Tiled (*.tsx *.xml)",
+    "tileset.lastUsedFormat": "tsx",
+    "tileset.tileSize": {
+        "height": 64,
+        "width": 64
+    },
+    "tileset.type": 0
+}

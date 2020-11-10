@@ -1,0 +1,170 @@
+canvas {
+  display: block;
+  margin: auto;
+}
+
+body,
+nav,
+.container {
+  font-family: "VT323", monospace;
+}
+h1 {
+  font-size: 60px;
+}
+nav {
+  font-size: 22px;
+}
+#kuruGame {
+  max-width: 800px;
+  display: block;
+  margin: auto;
+  font-family: "VT323", monospace;
+  font-size: 30px;
+}
+.game-panel {
+  max-width: 800px;
+  overflow: hidden;
+  display: block;
+  clear: both;
+  box-shadow: 0 0 15px #6ac8f8;
+  border-radius: 10px;
+  position: relative;
+  margin: auto;
+  z-index: 10;
+  background: url("/site/images/game-controls-bg.jpg") repeat-x;
+}
+.game-controls {
+  display: block;
+  width: 100%;
+  max-width: 800px;
+  min-height: 80px;
+  margin: 0;
+  padding: 0;
+  background: url("/site/images/game-controls-bg.jpg") repeat-x;
+}
+ul.left-controls {
+  list-style-type: none;
+  margin: 30px 0 0 25px;
+  padding: 0;
+  display: inline-block;
+}
+ul.left-controls > li {
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  vertical-align: middle;
+}
+.controls-label {
+  display: inline-block;
+  width: 80px;
+  height: 9px;
+  background: url("/site/images/controls-label.png") no-repeat;
+}
+.up-label {
+  display: inline-block;
+  width: 11px;
+  height: 11px;
+  background: url("/site/images/up-label.png") no-repeat;
+}
+.down-label {
+  display: inline-block;
+  width: 11px;
+  height: 11px;
+  background: url("/site/images/down-label.png") no-repeat;
+}
+.left-label {
+  display: inline-block;
+  width: 13px;
+  height: 11px;
+  background: url("/site/images/left-label.png") no-repeat;
+}
+.right-label {
+  display: inline-block;
+  width: 12px;
+  height: 11px;
+  background: url("/site/images/right-label.png") no-repeat;
+}
+.shift-label {
+  display: inline-block;
+  width: 40px;
+  height: 11px;
+  background: url("/site/images/shift-label.png") no-repeat;
+}
+.space-label {
+  display: inline-block;
+  width: 64px;
+  height: 18px;
+  background: url("/site/images/space-label.png") no-repeat;
+}
+.col-right {
+  display: flex;
+  justify-content: flex-end;
+  align-self: center;
+}
+ul.right-controls {
+  list-style-type: none;
+  padding: 0;
+  display: inline-block;
+  margin: 15px 25px 0 0;
+}
+ul.right-controls > li {
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  vertical-align: middle;
+}
+.pause-button {
+  width: 121px;
+  height: 52px;
+  display: inline-block;
+  background: url("/site/images/large-pause-button.png") no-repeat;
+}
+.mute-button {
+  width: 121px;
+  height: 52px;
+  display: inline-block;
+  background: url("/site/images/large-mute-button.png") no-repeat;
+}
+.reset-button {
+  width: 121px;
+  height: 52px;
+  display: inline-block;
+  background: url("/site/images/large-reset-button.png") no-repeat;
+}
+.pause-button:hover,
+.mute-button:hover,
+.reset-button:hover {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 479px) {
+  /* start of phone styles */
+
+  h1 {
+    font-size: 30px;
+  }
+  ul.right-controls {
+    list-style-type: none;
+    padding: 0;
+    display: inline-block;
+    margin: 15px 25px 0 0;
+  }
+  .pause-button {
+    width: 80px;
+    height: 30px;
+    display: inline-block;
+    background: url("/site/images/small-pause-button.png") no-repeat;
+  }
+  .mute-button {
+    width: 80px;
+    height: 30px;
+    display: inline-block;
+    background: url("/site/images/small-mute-button.png") no-repeat;
+  }
+  .reset-button {
+    width: 80px;
+    height: 30px;
+    display: inline-block;
+    background: url("/site/images/small-reset-button.png") no-repeat;
+  }
+}
