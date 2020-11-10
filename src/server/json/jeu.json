@@ -1,0 +1,27 @@
+{
+    "1":{
+        "nom":"Roberto",
+        "description":"Jeu du type de mario mais avec roberto",
+        "link":"/roberto",
+        "image":"/miniature/roberto.png"
+
+    },
+    "2":{
+        "nom":"StarKong",
+        "description":"Des étoiles et king kong",
+        "link":"/starKong",
+        "image":"/miniature/star_kong.png"
+    },
+    "3":{
+        "nom":"Kuru",
+        "description":"Magnier le gros baton",
+        "link":"/kuru",
+        "image":"/miniature/kuru.png"
+    },
+    "4":{
+        "nom":"Puissance 4",
+        "description":"Aligner les pions pour gagner",
+        "link":"/puissance4",
+        "image":"/miniature/puissance4.png"
+    }
+}
