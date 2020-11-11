@@ -93,11 +93,11 @@
             "scaleInEditor": 1
         },
         "kurumap1.tmx": {
-            "scale": 0.75,
+            "scale": 0.5,
             "selectedLayer": 5,
             "viewCenter": {
-                "x": 512.6666666666665,
-                "y": 461.33333333333337
+                "x": 987,
+                "y": 574
             }
         },
         "kurumap1.tmx#Tiles_sheet_bumper_64": {
@@ -128,7 +128,8 @@
         },
         "kurumap1.tmx#terrain": {
             "dynamicWrapping": false,
-            "scaleInDock": 1
+            "scaleInDock": 1,
+            "scaleInEditor": 1
         },
         "kurumap1.tmx#tile-sheet-objet": {
             "dynamicWrapping": false,
@@ -141,8 +142,8 @@
             "scale": 0.75,
             "selectedLayer": 2,
             "viewCenter": {
-                "x": 1216.6666666666665,
-                "y": 672
+                "x": 1214,
+                "y": 853.3333333333333
             }
         },
         "kurumap2.tmx#Tiles_sheet_bumper_64": {
@@ -153,7 +154,8 @@
             "scaleInDock": 1
         },
         "kurumap2.tmx#terrain": {
-            "scaleInDock": 1
+            "scaleInDock": 1,
+            "scaleInEditor": 1
         },
         "kurumap2.tmx#tile-sheet-objet": {
             "dynamicWrapping": false,
@@ -166,12 +168,13 @@
             "scale": 0.4687752016129032,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 929.0167195312079,
-                "y": 322.11601526799643
+                "x": 941.8160313961614,
+                "y": 612.233750873609
             }
         },
         "kurumap3.tmx#terrain": {
-            "scaleInDock": 1
+            "scaleInDock": 1,
+            "scaleInEditor": 1
         },
         "kurumap3.tmx#tile-sheet-objet": {
             "scaleInDock": 1
@@ -181,22 +184,43 @@
         },
         "kurumap4.tmx": {
             "scale": 0.5,
-            "selectedLayer": 2,
+            "selectedLayer": 3,
             "viewCenter": {
                 "x": 943,
-                "y": 902
+                "y": 644
             }
         },
         "kurumap4.tmx#Tiles_sheet_bumper_64": {
             "scaleInDock": 1
         },
         "kurumap4.tmx#terrain": {
-            "scaleInDock": 1
+            "scaleInDock": 1,
+            "scaleInEditor": 1
         },
         "kurumap4.tmx#tile-sheet-objet": {
             "scaleInDock": 1
         },
         "kurumap4.tmx#tilesPerso": {
+            "scaleInDock": 1
+        },
+        "kurumap5.tmx": {
+            "scale": 0.5,
+            "selectedLayer": 2,
+            "viewCenter": {
+                "x": 1475,
+                "y": 660
+            }
+        },
+        "kurumap5.tmx#Tiles_sheet_bumper_64": {
+            "scaleInDock": 1
+        },
+        "kurumap5.tmx#terrain": {
+            "scaleInDock": 1
+        },
+        "kurumap5.tmx#tile-sheet-objet": {
+            "scaleInDock": 1
+        },
+        "kurumap5.tmx#tilesPerso": {
             "scaleInDock": 1
         }
     },

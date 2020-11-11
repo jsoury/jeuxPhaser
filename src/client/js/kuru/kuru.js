@@ -37,6 +37,7 @@ var Preloader = new Phaser.Class({
     jeu.scene.load.tilemapTiledJSON("map2", "/kuru/json/kurumap2.json");
     jeu.scene.load.tilemapTiledJSON("map3", "/kuru/json/kurumap3.json");
     jeu.scene.load.tilemapTiledJSON("map4", "/kuru/json/kurumap4.json");
+    jeu.scene.load.tilemapTiledJSON("map5", "/kuru/json/kurumap5.json");
     jeu.scene.load.image("piece1", "/kuru/images/piece1.png");
     jeu.scene.load.image("piece2", "/kuru/images/piece2.png");
     jeu.scene.load.image("kuru", "/kuru/images/kuru.png");

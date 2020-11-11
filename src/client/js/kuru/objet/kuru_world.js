@@ -202,7 +202,7 @@ var world = {
       fontFamily: "VT323, monospace",
     };
     jeu.record = gestionChrono.getRecordBylevel(jeu.level);
-    var record = jeu.record.split("#");
+    if (jeu.record) var record = jeu.record.split("#");
     var panel = jeu.scene.add.image(5, 5, "timePanel");
     panel.setOrigin(0, 0).setScrollFactor(0).setScale(1);
     panel.scaleX = 1.5;
@@ -251,7 +251,7 @@ var world = {
   },
   nextLevel: function () {
     jeu.level++;
-    if (jeu.level === 5) jeu.level = 1;
+    if (jeu.level === 6) jeu.level = 1;
     jeu.player.forceRotation = 1;
     jeu.win = false;
     gestionChrono.chronoSend = false;
