@@ -262,5 +262,11 @@ var world = {
     jeu.stringSeconde = "0";
     jeu.mil = 0;
     jeu.scene.scene.restart();
+    const myRequest = new Request("/chrono");
+    fetch(myRequest).then((response) =>
+      response.json().then((data) => {
+        gestionChrono.getChronos(data);
+      })
+    );
   },
 };
