@@ -3,7 +3,7 @@
         "height": 4300,
         "width": 2
     },
-    "activeFile": "kurumap4.tmx",
+    "activeFile": "kurumap5.tmx",
     "expandedProjectPaths": [
     ],
     "exportAsImage.useCurrentScale": false,
@@ -96,8 +96,8 @@
             "scale": 0.5,
             "selectedLayer": 5,
             "viewCenter": {
-                "x": 987,
-                "y": 574
+                "x": 959,
+                "y": 319
             }
         },
         "kurumap1.tmx#Tiles_sheet_bumper_64": {
@@ -205,10 +205,10 @@
         },
         "kurumap5.tmx": {
             "scale": 0.5,
-            "selectedLayer": 2,
+            "selectedLayer": 5,
             "viewCenter": {
-                "x": 1475,
-                "y": 660
+                "x": 963,
+                "y": 770
             }
         },
         "kurumap5.tmx#Tiles_sheet_bumper_64": {
@@ -236,7 +236,8 @@
         "kurumap1.tmx",
         "kurumap2.tmx",
         "kurumap3.tmx",
-        "kurumap4.tmx"
+        "kurumap4.tmx",
+        "kurumap5.tmx"
     ],
     "project": "kuru.tiled-project",
     "property.type": "int",
@@ -245,6 +246,7 @@
         "kurumap2.tmx",
         "kurumap3.tmx",
         "kurumap4.tmx",
+        "kurumap5.tmx",
         "D:/CoursOpenClassRoom/CoursJS/phaser/jeuxDePlatforme/server/asset/kuru/json/json/json/level1.tmx",
         "D:/CoursOpenClassRoom/CoursJS/phaser/jeuxDePlatforme/server/asset/kuru/json/json/json/level2.tmx",
         "D:/CoursOpenClassRoom/CoursJS/phaser/jeuxDePlatforme/server/asset/kuru/json/json/json/level3.tmx",

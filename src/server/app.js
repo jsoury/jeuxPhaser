@@ -26,7 +26,8 @@ app.use(express.static(path.resolve("../client/js")));
 app.use(express.static(path.resolve("../client/css")));
 app.use(express.static(path.resolve("../client/public")));
 
-app.get("/favicon.ico", function (req, res, next) {
+app.use("/favicon.ico", function (req, res, next) {
+  res.setHeader("Content-Type", "image/x-icon");
   res.sendFile(path.join("client", "public", "favicon.ico"));
   next();
 });

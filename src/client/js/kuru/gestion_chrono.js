@@ -8,21 +8,34 @@ var gestionChrono = {
     if (jeu.win) {
       if (!this.chronoSend) {
         this.chronoSend = true;
-        this.postChrono(playerName, level, chrono);
+        const bodyChrono = {
+          playerName: playerName,
+          level: level,
+          chrono: chrono,
+        };
+        this.postChrono(bodyChrono);
       }
     }
   },
 
-  postChrono: function (playerName, level, chrono) {
-    var xhr = new XMLHttpRequest();
-    xhr.open("POST", "/chrono");
-    xhr.setRequestHeader("Content-Type", "application/json; charset=utf-8");
-    var jsonStr = JSON.stringify({
-      playerName: playerName,
-      level: level,
-      chrono: chrono,
-    });
-    xhr.send(jsonStr);
+  postChrono: async function (body) {
+    const options = {
+      method: "POST",
+      body: JSON.stringify(body),
+      headers: {
+        "Content-Type": "application/json",
+      },
+    };
+    try {
+      const res = await fetch("/chrono", options);
+      if (!res.ok) {
+        throw new Error(res.status);
+      }
+      const data = await res.json();
+      console.log(data);
+    } catch (error) {
+      console.log(error);
+    }
   },
 
   getRecordBylevel: function (level) {
@@ -39,16 +52,11 @@ var gestionChrono = {
   },
 
   getChronos: function (chronos) {
-    var tabChrono = [];
-    for (let chrono in chronos.chrono) {
-      tabChrono.push(chronos.chrono[chrono]);
-    }
-    this.chronos = tabChrono;
+    this.chronos = chronos.chrono;
     gestionChrono.afficherChronos();
   },
   afficherChronos: function () {
-    let chronos = this.chronos;
-    chronos = chronos.sort(this.triByLevelAndChrono);
+    this.chronos.sort(this.triByLevelAndChrono);
     let txt = "";
     txt += `<table id='tabChrono' class='table table-striped w-50 mx-auto'>
       <thead>
@@ -58,11 +66,11 @@ var gestionChrono = {
           <th>Chrono</th>
         </tr>
       <tbody>`;
-    for (let ligne in chronos) {
+    for (let ligne in this.chronos) {
       txt += `<tr>
-        <td>${chronos[ligne].playerName}</td>
-        <td>${chronos[ligne].level}</td>
-        <td>${chronos[ligne].chrono}</td>
+        <td>${this.chronos[ligne].playerName}</td>
+        <td>${this.chronos[ligne].level}</td>
+        <td>${this.chronos[ligne].chrono}</td>
       </tr>`;
     }
     txt += "</tbody></table>";
@@ -74,10 +82,10 @@ var gestionChrono = {
     });
   },
   chronoByName: function () {
-    let chronos;
     let chronosNoOrder = this.chronos;
     let chronosOrderByName = [...chronosNoOrder].sort(this.triByNom);
 
+    let chronos;
     this.isSort ? (chronos = chronosOrderByName) : (chronos = chronosNoOrder);
 
     for (let ligne in chronos) {
@@ -101,8 +109,7 @@ var gestionChrono = {
     return 0;
   },
   triByNom: function (a, b) {
-    var critere,
-      criteres = "playerName";
+    criteres = "playerName";
     const first = a[criteres].toUpperCase();
     const second = b[criteres].toUpperCase();
     if (first != second) {
